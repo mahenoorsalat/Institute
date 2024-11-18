@@ -1,0 +1,24 @@
+::-webkit-scrollbar{
+  display: none;
+}
+
+#root {
+  margin: 0;
+  padding: 0;
+}
+
+.compheader {
+  background-color: green;
+}
+
+.navbarlogo, .footerLogo {
+  border-radius: 50%;
+}
+
+.maindivabout {
+  border: 2px solid blue;
+}
+
+.downfooter {
+  background-color: #163809;
+}

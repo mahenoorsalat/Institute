@@ -1,0 +1,14 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "alamaan.ois",
+      "sha256_cert_fingerprints": [
+        "3C:F7:26:77:2C:9F:0D:C0:F9:B0:13:C0:A0:98:F0:A0:28:DE:30:6B:0C:90:56:36:2B:98:B6:74:EC:82:3E:B0",
+        "FB:22:7A:5D:81:45:99:D3:BB:F5:7D:0F:0A:C3:2A:95:8F:14:57:7B:54:DD:06:97:EB:11:DB:B9:1D:04:B1:2F",
+        "71:C1:67:69:F5:42:6E:F7:F8:78:24:BC:A7:E5:63:EE:85:C0:46:E9:FC:6C:73:45:8E:EB:EA:37:C0:43:8B:5E"
+      ]
+    }
+  }
+]
