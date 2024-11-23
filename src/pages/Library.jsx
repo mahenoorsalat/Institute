@@ -1,9 +1,19 @@
-import React from 'react'
+import React from 'react';
+import Main from '../components/Library/MainContent';
+import Popular from '../components/Library/Popular';
+import New from '../components/Library/NewCollection';
+import StaffPicks from '../components/Library/Staff';
+
 
 const Library = () => {
   return (
-    <div className='my-20'>Library</div>
-  )
-}
+    <>
+      <Main />
+      <Popular />
+      <New />
+      <StaffPicks/>
+    </>
+  );
+};
 
-export default Library
+export default Library;

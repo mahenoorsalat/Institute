@@ -2,11 +2,10 @@
 export default {
   content: [
     "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    './src/**/*.{js,jsx,ts,tsx}',  // Only match files in your src directory
   ],
   theme: {
     extend: {},
   },
   plugins: [],
 }
-

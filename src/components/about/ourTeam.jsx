@@ -71,7 +71,7 @@ function OurTeam() {
             <button className="rounded-md bg-green-900 py-2 px-3 text-white hover:bg-white hover:text-green-900 focus:outline-none focus:ring-2 focus:ring-white text-xs md:text-sm  shadow-lg shadow-gray-400 focus:ring-offset-2 focus:ring-offset-green-600">
                 Learn More
             </button>
-            <button className="rounded-md bg-white py-2 text-xs md:text-sm px-3 text-green-900 hover:bg-green-900 hover:text-white focus:outline-none focus:ring-2 focus:ring-white shadow-lg shadow-gray-400 focus:ring-offset-2 focus:ring-offset-green-600">
+            <button className="border py-2 px-3 border-gray-300 rounded-md hover:bg-gray-50 shadow-lg shadow-gray-400 transition-colors flex items-center gap-2">
                 Contact Us
             </button>
         </div>

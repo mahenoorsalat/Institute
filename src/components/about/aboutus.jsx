@@ -1,13 +1,13 @@
 import React from 'react';
-import school from "../../assets/images/about.jpg";
+import school from "../../assets/images/about.png";
 
 function AboutUs() {
   return (
    <>
    {/* Main content */}
     <div className="relative mb-72 md:mb-28">
-      <img height={50} width="auto" className="w-full object-contain" src={school} alt="School" />
-      <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center text-white px-4">
+      <img height={50} width="auto" className="w-full object-contain" src={school} alt="School"/>
+      <div className="absolute inset-0 flex items-center justify-center text-white px-4">
         <div className="text-center text-black p-9 md:p-16 translate-y-60 md:translate-y-96 max-w-4xl bg-white">
           <h1 className="text-2xl md:text-7xl font-semibold mb-4  h1welcometext text-green-950">About Us</h1>
           <h3 className="text-xl md:text-2xl mb-6">Empowering you to live an Islam-centered life.</h3>

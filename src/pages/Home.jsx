@@ -4,7 +4,7 @@ import homevideo from '../assets/videos/vid9.mp4';
 import WelcomSection from '../components/home/WelcomSection';
 import WhyusSection from '../components/home/WhyusSection';
 import OurcoursesSection from '../components/home/OurcoursesSection';
-import OurteachersSection from '../components/home/OurteachersSection';
+// import OurteachersSection from '../components/home/OurteachersSection';
 
 const Home = () => {
   return (
@@ -23,7 +23,7 @@ const Home = () => {
         <WelcomSection />
         <WhyusSection />
         <OurcoursesSection />
-        <OurteachersSection />
+        {/* <OurteachersSection /> */}
       </div>
     </>
   );

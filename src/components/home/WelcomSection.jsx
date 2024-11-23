@@ -23,7 +23,7 @@ const WelcomSection = () => {
             </p>
           </div>
           <div className="divwelcomepoints my-2 py-2 text-xl font-medium">
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 my-3">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 my-3">
               <div className="p-0 flex items-center">
                 <span>
                   <FaCheckCircle size={20} className="fonticons" />
@@ -43,7 +43,7 @@ const WelcomSection = () => {
                 <span className="ml-2">Fiqah</span>
               </div>
             </div>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 my-3">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 my-3">
               <div className="p-0 flex items-center">
                 <span>
                   <FaCheckCircle size={20} className="fonticons" />
@@ -65,7 +65,7 @@ const WelcomSection = () => {
             </div>
           </div>
           <div className="divcalltoask my-2">
-            <div class="grid grid-cols-1 md:grid-cols-[0.1fr_0.9fr] my-3">
+            <div className="grid grid-cols-1 md:grid-cols-[0.1fr_0.9fr] my-3">
               <div>
                 <FaPhoneSquare size={70} className="fonticons" />
               </div>

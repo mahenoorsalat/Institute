@@ -29,11 +29,11 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/courses" element={<ComingSoon />} />
-        <Route path="/library" element={<ComingSoon />} />
+        <Route path="/library" element={<Library />} />
         <Route path="/blogs" element={<ComingSoon />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/donate" element={<ComingSoon />} />
+        <Route path="/donate" element={<Donate />} />
         <Route path="/enrollinclass/:classid" element={<EnrollmentClass />} />
 
                   //https://www.alamaanois.com/enrollinclass?classid=9651253

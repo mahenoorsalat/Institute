@@ -1,8 +1,12 @@
 import React from 'react'
+import Main from '../components/Donate/Main';  // Correct relative path
 
-const Donate = () => {
+
+function Donate() {
   return (
-    <div className='my-20'>Donate</div>
+    <div className='mt-12'>
+      <Main/>
+    </div>
   )
 }
 

@@ -67,7 +67,7 @@ const HeaderNew = () => {
                     About
                   </NavLink>
                   {/* Dropdown Menu */}
-                  <div className="absolute left-0 hidden w-48 bg-white rounded-md shadow-lg group-hover:block">
+                  {/* <div className="absolute left-0 hidden w-48 bg-white rounded-md shadow-lg group-hover:block">
                     <NavLink
                       to="/about#alamaan"
                       className={({ isActive }) =>
@@ -100,7 +100,7 @@ const HeaderNew = () => {
                       }                    >
                       Our Mission
                     </NavLink>
-                  </div>
+                  </div> */}
                 </div>
                 {/* Add more links as needed */}
                 <NavLink
@@ -123,7 +123,7 @@ const HeaderNew = () => {
                     Library
                   </NavLink>
                   {/* Dropdown Menu */}
-                  <div className="absolute left-0 hidden w-48 bg-white rounded-md shadow-lg group-hover:block">
+                  {/* <div className="absolute left-0 hidden w-48 bg-white rounded-md shadow-lg group-hover:block">
                     <NavLink
                       to="/library#darsibooks"
                       className={({ isActive }) =>
@@ -172,7 +172,7 @@ const HeaderNew = () => {
                       }                      >
                       Orientalism
                     </NavLink>
-                  </div>
+                  </div> */}
                 </div>
                 <NavLink
                   to="/blogs"
@@ -198,7 +198,7 @@ const HeaderNew = () => {
           <div className=" inset-y-0 right-0 flex items-center space-x-4 pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
             <button
               type="button"
-              className="relative rounded-md bg-green-900 py-2 px-3 text-white hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-white shadow-lg shadow-gray-400 focus:ring-offset-2 focus:ring-offset-green-600"
+              className="relative rounded-md bg-green-900 py-2 px-3 text-white hover:bg-green-700  shadow-lg shadow-gray-400 "
               onClick={handleLoginClick}
             >
               <span className="sr-only">Login</span>
@@ -206,7 +206,7 @@ const HeaderNew = () => {
             </button>
             <button
               type="button"
-              className="relative rounded-md bg-green-900 py-2 px-3 shadow-lg shadow-gray-400 text-white hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-green-600"
+              className="relative border py-2 px-3 border-gray-300 rounded-md hover:bg-gray-50 shadow-lg shadow-gray-400 transition-colors flex items-center gap-2"
               onClick={handleDonateClick}
             >
               <span className="sr-only">Donate</span>
@@ -229,7 +229,7 @@ const HeaderNew = () => {
             <DisclosureButton className="text-black block text-start border-2 w-full hover:text-gray-300 px-3 py-2 rounded-md text-sm font-medium  border-b-black">
               About
             </DisclosureButton>
-            <DisclosurePanel className="space-y-1 bg-white rounded-md p-2">
+            {/* <DisclosurePanel className="space-y-1 bg-white rounded-md p-2">
               <NavLink
                 to="/about#alamaan"
                 className="text-black block border-2 w-[50%] hover:text-gray-300 px-3 py-2 rounded-md text-sm font-medium  border-b-black"              >
@@ -250,7 +250,7 @@ const HeaderNew = () => {
                 className="text-black block border-2 w-[50%] hover:text-gray-300 px-3 py-2 rounded-md text-sm font-medium  border-b-black"              >
                 Our Mission
               </NavLink>
-            </DisclosurePanel>
+            </DisclosurePanel> */}
           </Disclosure>
           {/* Add more mobile links as needed */}
           <NavLink
@@ -263,7 +263,7 @@ const HeaderNew = () => {
             <DisclosureButton className="text-black block text-start border-2 w-full hover:text-gray-300 px-3 py-2 rounded-md text-sm font-medium  border-b-black">
               Library
             </DisclosureButton>
-            <DisclosurePanel className="space-y-1 bg-white rounded-md p-2">
+            {/* <DisclosurePanel className="space-y-1 bg-white rounded-md p-2">
               <NavLink
                 to="/library#darsibooks"
                 className="text-black block text-start border-2 w-[50%] hover:text-gray-300 px-3 py-2 rounded-md text-sm font-medium  border-b-black"              >
@@ -294,7 +294,7 @@ const HeaderNew = () => {
                 className="text-black block text-start border-2 w-[50%] hover:text-gray-300 px-3 py-2 rounded-md text-sm font-medium  border-b-black"              >
                 Orientalism
               </NavLink>
-            </DisclosurePanel>
+            </DisclosurePanel> */}
           </Disclosure>
           <NavLink
             to="/contact"

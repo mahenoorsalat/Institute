@@ -5,11 +5,11 @@ import logo from "../assets/images/logo.jpeg";
 const Footer = () => {
   return (
     <>
-      <footer>
-        <div class="shadow-lg shadow-gray-200 bg-gray-200 py-4 text-black0">
-          <div class="container px-4 mx-auto">
-            <div class="-mx-4 flex flex-wrap justify-between">
-              <div class="px-4 my-4 w-full xl:w-1/5">
+      <footer className="mt-10">
+        <div className="shadow-lg shadow-gray-200 bg-gray-200 py-4 text-black0">
+          <div className="container px-4 mx-auto">
+            <div className="-mx-4 flex flex-wrap justify-between">
+              <div className="px-4 my-4 w-full xl:w-1/5">
                 <a href="/" className="block mb-10">
                   <div className="flex items-center">
                     {/* Logo */}
@@ -26,7 +26,7 @@ const Footer = () => {
                   </div>
                 </a>
 
-                <p class="text-justify">
+                <p className="text-justify">
                   Al Amaan Online Islamic Studies is unique in it's own way. It
                   provides a solid platform of sound Islamic education for the
                   Islamic studies lover. It conducts it's classes completely
@@ -35,52 +35,52 @@ const Footer = () => {
                 </p>
               </div>
 
-              <div class="px-4 my-4 w-full sm:w-auto">
+              <div className="px-4 my-4 w-full sm:w-auto">
                 <div>
-                  <h2 class="inline-block text-2xl pb-4 mb-4 border-b-4 border-green-900">
+                  <h2 className="inline-block text-2xl pb-4 mb-4 border-b-4 border-green-900">
                     Important Links
                   </h2>
                 </div>
-                <ul class="leading-8">
+                <ul className="leading-8">
                   <li>
-                    <a href="/" class="hover:text-gray-400">
+                    <a href="/" className="hover:text-gray-400">
                       Home
                     </a>
                   </li>
                   <li>
-                    <a href="/about" class="hover:text-gray-400">
+                    <a href="/about" className="hover:text-gray-400">
                       About Us
                     </a>
                   </li>
                   <li>
-                    <a href="/courses" class="hover:text-gray-400">
+                    <a href="/courses" className="hover:text-gray-400">
                       Courses
                     </a>
                   </li>
                   <li>
-                    <a href="/library" class="hover:text-gray-400">
+                    <a href="/library" className="hover:text-gray-400">
                       Library
                     </a>
                   </li>
                   <li>
-                    <a href="/blogs" class="hover:text-gray-400">
+                    <a href="/blogs" className="hover:text-gray-400">
                       Blogs
                     </a>
                   </li>
                   <li>
-                    <a href="/contact" class="hover:text-gray-400">
+                    <a href="/contact" className="hover:text-gray-400">
                       Contact
                     </a>
                   </li>
                 </ul>
               </div>
-              <div class="px-4 my-4 w-full sm:w-auto">
+              <div className="px-4 my-4 w-full sm:w-auto">
                 <div>
-                  <h2 class="inline-block text-2xl pb-4 mb-4 border-b-4 border-green-900">
+                  <h2 className="inline-block text-2xl pb-4 mb-4 border-b-4 border-green-900">
                     Blogs
                   </h2>
                 </div>
-                <ul class="leading-8">
+                <ul className="leading-8">
                   <li>
                     <HashLink
                       to="/blogs#divshaikhabdulqadirjilani"
@@ -98,24 +98,24 @@ const Footer = () => {
                     </HashLink>
                   </li>
                   <li>
-                    <a href="/blogs" class="hover:text-gray-400">
+                    <a href="/blogs" className="hover:text-gray-400">
                       See More
                     </a>
                   </li>
                 </ul>
               </div>
-              <div class="px-4 my-4 w-full sm:w-auto xl:w-1/5">
+              <div className="px-4 my-4 w-full sm:w-auto xl:w-1/5">
                 <div>
-                  <h2 class="inline-block text-2xl pb-4 mb-4 border-b-4 border-green-900">
+                  <h2 className="inline-block text-2xl pb-4 mb-4 border-b-4 border-green-900">
                     Connect With Us
                   </h2>
                 </div>
                 <a
                   href="#"
-                  class="inline-flex items-center justify-center h-8 w-8 border border-gray-100 rounded-full mr-1 hover:text-gray-400 hover:border-gray-400"
+                  className="inline-flex items-center justify-center h-8 w-8 border border-gray-100 rounded-full mr-1 hover:text-gray-400 hover:border-gray-400"
                 >
                   <svg
-                    class="w-4 h-4 fill-current"
+                    className="w-4 h-4 fill-current"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 320 512"
                   >
@@ -124,10 +124,10 @@ const Footer = () => {
                 </a>
                 <a
                   href="#"
-                  class="inline-flex items-center justify-center h-8 w-8 border border-gray-100 rounded-full mr-1 hover:text-gray-400 hover:border-gray-400"
+                  className="inline-flex items-center justify-center h-8 w-8 border border-gray-100 rounded-full mr-1 hover:text-gray-400 hover:border-gray-400"
                 >
                   <svg
-                    class="w-4 h-4 fill-current"
+                    className="w-4 h-4 fill-current"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 512 512"
                   >
@@ -136,10 +136,10 @@ const Footer = () => {
                 </a>
                 <a
                   href="#"
-                  class="inline-flex items-center justify-center h-8 w-8 border border-gray-100 rounded-full mr-1 hover:text-gray-400 hover:border-gray-400"
+                  className="inline-flex items-center justify-center h-8 w-8 border border-gray-100 rounded-full mr-1 hover:text-gray-400 hover:border-gray-400"
                 >
                   <svg
-                    class="w-4 h-4 fill-current"
+                    className="w-4 h-4 fill-current"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 448 512"
                   >
@@ -148,10 +148,10 @@ const Footer = () => {
                 </a>
                 <a
                   href="#"
-                  class="inline-flex items-center justify-center h-8 w-8 border border-gray-100 rounded-full mr-1 hover:text-gray-400 hover:border-gray-400"
+                  className="inline-flex items-center justify-center h-8 w-8 border border-gray-100 rounded-full mr-1 hover:text-gray-400 hover:border-gray-400"
                 >
                   <svg
-                    class="w-4 h-4 fill-current"
+                    className="w-4 h-4 fill-current"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 496 512"
                   >
@@ -160,10 +160,10 @@ const Footer = () => {
                 </a>
                 <a
                   href="#"
-                  class="inline-flex items-center justify-center h-8 w-8 border border-gray-100 rounded-full hover:text-gray-400 hover:border-gray-400"
+                  className="inline-flex items-center justify-center h-8 w-8 border border-gray-100 rounded-full hover:text-gray-400 hover:border-gray-400"
                 >
                   <svg
-                    class="w-4 h-4 fill-current"
+                    className="w-4 h-4 fill-current"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 576 512"
                   >
@@ -174,16 +174,16 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div class="py-4 text-black bg-white downfooter ">
-          <div class="container mx-auto px-4">
-            <div class="-mx-4 flex flex-wrap justify-between">
+        <div className="py-4 text-black bg-white downfooter ">
+          <div className="container mx-auto px-4">
+            <div className="-mx-4 flex flex-wrap justify-between">
               {/* <!-- Copyright Section --> */}
-              <div class="px-4 w-full text-center sm:w-auto sm:text-left">
+              <div className="px-4 w-full text-center sm:w-auto sm:text-left">
                 Copyright © alamaan. All Rights Reserved.
               </div>
 
               {/* <!-- Made with ❤️ Section --> */}
-              <div class="px-4 w-full text-center sm:w-auto sm:text-left">
+              <div className="px-4 w-full text-center sm:w-auto sm:text-left">
                 Made with ❤️ by Al Amaan OIS.
               </div>
             </div>
