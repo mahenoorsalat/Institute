@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
 import "./App.css";
 import {
   BrowserRouter as Router,
   Route,
   Routes,
+  useLocation // Add this line
 } from "react-router-dom";
 import Header from "./components/Header";
 import Home from "./pages/Home";
@@ -19,11 +20,19 @@ import Footer from "./components/Footer";
 import EnrollmentClass from "./components/EnrollmentClass/EnrollmentClass.jsx";
 
 function App() {
+  const HeaderWrapper = () => {
+    const location = useLocation(); // Now it's correctly defined
+    return location.pathname !== "/login" ? <Header /> : null;
+  };
+
+  const FooterWrapper = () => {
+    const location = useLocation(); // Now it's correctly defined
+    return location.pathname !== "/login" ? <Footer /> : null;
+  };
 
   return (
     <Router>
-      {/* Ichanged the code by rendering the Header and Footer directly to show them on all pages */}
-      <Header />
+      <HeaderWrapper />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -33,15 +42,11 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/login" element={<Login />} />
         <Route path="/donate" element={<Donate />} />
-        <Route path="/enrollinclass/:classid" element={<EnrollmentClass />} />
-
-                  //https://www.alamaanois.com/enrollinclass?classid=9651253
+        <Route path="/enrollinclass" element={<EnrollmentClass />} />
       </Routes>
-      <Footer />
+      <FooterWrapper />
     </Router>
   );
 }
 
 export default App;
-
-
