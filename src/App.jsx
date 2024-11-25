@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React from 'react'
 import "./App.css";
 import {
   BrowserRouter as Router,
@@ -19,7 +19,6 @@ import Footer from "./components/Footer";
 import EnrollmentClass from "./components/EnrollmentClass/EnrollmentClass.jsx";
 
 function App() {
-  const [count, setCount] = useState(0);
 
   return (
     <Router>
@@ -30,7 +29,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/courses" element={<ComingSoon />} />
         <Route path="/library" element={<Library />} />
-        <Route path="/blogs" element={<ComingSoon />} />
+        <Route path="/blogs" element={<Blogs />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/login" element={<Login />} />
         <Route path="/donate" element={<Donate />} />
