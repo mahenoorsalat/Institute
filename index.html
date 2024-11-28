@@ -5,9 +5,31 @@
     <link rel="icon" type="image/svg+xml" href="./src/assets/images/logo.jpeg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Al Amaan</title>
+    <style>
+      #loader {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(255, 255, 255, 0.7);
+        z-index: 9999;
+        transition: opacity 0.3s ease-out;
+      }
+    </style>
   </head>
   <body>
+    <div id="loader">
+      <img src="src/assets/images/loading.gif" alt="Loading..." />
+    </div>
+
     <div id="root"></div>
+
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
